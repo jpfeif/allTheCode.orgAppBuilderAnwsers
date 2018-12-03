@@ -1,0 +1,51 @@
+function moveForwardThree(){
+moveForward();
+moveForward();
+moveForward();
+}
+function right(){
+  turnLeft();
+  turnLeft();
+  turnLeft();
+}
+
+function outerBox(){
+  moveForwardThree();
+  right();
+  moveForwardThree();
+  right();
+  moveForwardThree();
+  right();
+  moveForwardThree();
+  right();
+}
+function doTheGridThing(){
+  moveForward();
+  right();
+  moveForwardThree();
+  turnLeft();
+  moveForward();
+  turnLeft();
+  moveForwardThree();
+  right();
+  moveForward();
+  right();
+  moveForward();
+  right();
+  moveForwardThree();
+  turnLeft();
+  moveForward();
+  turnLeft();
+  moveForwardThree();
+  turnLeft();
+  moveForward();
+  moveForward();
+  turnLeft();
+  moveForwardThree();
+  right();
+  right();
+  outerBox();
+}
+outerBox();
+doTheGridThing();
+
