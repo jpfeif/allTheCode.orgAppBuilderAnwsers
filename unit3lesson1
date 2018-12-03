@@ -1,0 +1,45 @@
+function right(){  //moves to the right to the right to the right to the right
+  turnLeft();
+  turnLeft();
+  turnLeft();
+}
+function turnAround(){  //turns around
+  turnLeft();
+  turnLeft();
+  }
+function plus(){ //does the plus thingy
+  moveForward();
+  right();
+  moveForward();
+  turnAround();
+  moveForward();
+  right();
+  moveForward();
+  turnAround();
+  moveForward();
+  right();
+  moveForward();
+  turnAround();
+  moveForward();
+  right();
+  moveForward();
+}
+function weirdPlusThing(){
+  moveForward(); //start of the first plus thingy
+  plus();
+  moveForward(); //return to center
+  turnLeft(); //start of the second plus thingy
+  moveForward();
+  plus();
+  moveForward(); //return to center
+  turnLeft(); //start of the third plus thingy
+  moveForward();
+  plus();
+  moveForward(); //return to center
+  turnLeft(); //start of the fourth plus thingy
+  moveForward();
+  plus();
+  moveForward();
+  turnLeft();
+}
+weirdPlusThing();
