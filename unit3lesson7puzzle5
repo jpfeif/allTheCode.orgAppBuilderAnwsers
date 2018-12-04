@@ -1,0 +1,6 @@
+penUp();
+dot(100);
+moveForward(150);
+dot(50);
+moveForward(75);
+dot(25);
