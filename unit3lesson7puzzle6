@@ -1,0 +1,7 @@
+penColor(rgb(255,0,0));
+dot(10000);
+penColor(rgb(0,255,0));
+dot(100);
+penColor(rgb(0,0,255));
+dot(50);
+
