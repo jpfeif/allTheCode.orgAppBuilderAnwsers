@@ -1,1 +1,11 @@
-stuff
+penWidth(100);
+penColor(rgb(0,0,255));
+moveForward(25);
+turnLeft(90);
+moveForward(25);
+turnLeft(90);
+moveForward(25);
+turnLeft(90);
+moveForward(25);
+turnLeft(90);
+
