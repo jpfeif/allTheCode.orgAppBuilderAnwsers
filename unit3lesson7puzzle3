@@ -1,7 +1,6 @@
-turnRight(90);
-moveForward(25);
-turnLeft(90);
-moveForward(25);
-turnRight(225);
-moveForward(25);
-moveForward(10)
+turnLeft(60);
+moveForward(100);
+turnLeft(120);
+moveForward(100);
+turnLeft(120);
+moveForward(100);
